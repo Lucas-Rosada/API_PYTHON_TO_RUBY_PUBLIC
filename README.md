@@ -1,5 +1,5 @@
 <p align="center">
-  ![Logo](./assets/pyruby.png)
+   <img src="https://raw.githubusercontent.com/Lucas-Rosada/API_PYTHON_TO_RUBY_PUBLIC/refs/heads/main/assets/pyruby.png" width="400" height="400" alt="Logo"/> 
 </p>
 
 <h1 align="center">API de Monitoramento de Veículos</h1>
