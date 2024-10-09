@@ -16,9 +16,6 @@
   <img src="https://img.shields.io/github/forks/Lucas-Rosada/API_PYTHON_TO_RUBY_PUBLIC">
 </p>
 
-## 🖥️ Demonstração
-<p align="center"> <img src="https://raw.githubusercontent.com/Lucas-Rosada/API_PYTHON_TO_RUBY_PUBLIC/refs/heads/main/assets/exemplo.png" alt="Demonstração" width="200"> </p>
-
 ## ✨ Funcionalidades
 
 - **Cache de Dados:** Atualiza os dados a cada 3 minutos para otimizar o uso do banco de dados.
@@ -44,3 +41,6 @@
 
 ## 🛠️ Endpoints
 GET /data: Retorna os dados em cache dos veículos.
+
+## 🖥️ Demonstração
+<p align="center"> <img src="https://raw.githubusercontent.com/Lucas-Rosada/API_PYTHON_TO_RUBY_PUBLIC/refs/heads/main/assets/exemplo.png" alt="Demonstração" width="200"> </p>
