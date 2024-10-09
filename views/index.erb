@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Dados da API</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+    <h1>Dados da API</h1>
+
+    <!-- busca de veiculo -->
+    <input type="text" id="search" placeholder="Buscar veículo...">
+    <button onclick="searchVehicle()">Buscar</button>
+
+    <!-- exibe os veiculos -->
+    <div class="container" id="vehicleContainer">
+        <!--loop de dados e inserido aqui -->
+    </div>
+
+    <!-- pop-up -->
+    <div class="overlay" id="overlay" onclick="closePopup()"></div>
+    <div class="popup" id="popup"></div>
+
+    <script>
+        // busca veiculos
+        function searchVehicle() {
+            const searchTerm = document.getElementById('search').value.toLowerCase();
+            const boxes = document.querySelectorAll('.box');
+            boxes.forEach(box => {
+                const vehicleName = box.getAttribute('data-vehicle').toLowerCase();
+                box.style.display = vehicleName.includes(searchTerm) ? 'block' : 'none';
+            });
+        }
+
+        // Exemplo de requisição para a API_RUBY.py
+        fetch('http://localhost:5000/data')
+        .then(response => response.json())
+        .then(data => console.log(data)) // debug--e exibido no console
+        .catch(error => console.error('Erro ao carregar dados:', error));
+    </script>
+</body>
+</html>
