@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" alt="Logo" width="200">
+  ![Logo](./assets/pyruby.png)
 </p>
 
 <h1 align="center">API de Monitoramento de Veículos</h1>
