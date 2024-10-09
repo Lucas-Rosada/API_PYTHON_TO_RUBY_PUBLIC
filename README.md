@@ -16,6 +16,9 @@
   <img src="https://img.shields.io/github/forks/usuario/api-monitoramento-veiculos">
 </p>
 
+## 🖥️ Demonstração
+<p align="center"> <img src="https://raw.githubusercontent.com/Lucas-Rosada/API_PYTHON_TO_RUBY_PUBLIC/refs/heads/main/assets/exemplo.png" alt="Demonstração" width="200"> </p>
+
 ## ✨ Funcionalidades
 
 - **Cache de Dados:** Atualiza os dados a cada 3 minutos para otimizar o uso do banco de dados.
