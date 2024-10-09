@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow">
+  <img src="https://img.shields.io/badge/status-%20Concluido-rgb(64,187,18)">
   <img src="https://img.shields.io/github/stars/Lucas-Rosada/API_PYTHON_TO_RUBY_PUBLIC">
   <img src="https://img.shields.io/github/issues/Lucas-Rosada/API_PYTHON_TO_RUBY_PUBLIC">
   <img src="https://img.shields.io/github/forks/Lucas-Rosada/API_PYTHON_TO_RUBY_PUBLIC">
