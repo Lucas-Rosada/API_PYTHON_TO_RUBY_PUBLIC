@@ -38,7 +38,15 @@
 1. **Clone o repositório:**
    ```bash
    git clone https://github.com/usuario/api-monitoramento-veiculos.git
+   
+2. **Instalação de bibliotecas python**
+   ```bash
+   pip install -r requirements.txt
 
+3. **Instalação de bibliotecas ruby**
+   ```bash
+   bundle install
+   
 ## 🛠️ Endpoints
 GET /data: Retorna os dados em cache dos veículos.
 
