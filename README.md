@@ -11,9 +11,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow">
-  <img src="https://img.shields.io/github/stars/Lucas-Rosada/api-monitoramento-veiculos">
-  <img src="https://img.shields.io/github/issues/Lucas-Rosada/api-monitoramento-veiculos">
-  <img src="https://img.shields.io/github/forks/Lucas-Rosada/api-monitoramento-veiculos">
+  <img src="https://img.shields.io/github/stars/Lucas-Rosada/API_PYTHON_TO_RUBY_PUBLIC">
+  <img src="https://img.shields.io/github/issues/Lucas-Rosada/API_PYTHON_TO_RUBY_PUBLIC">
+  <img src="https://img.shields.io/github/forks/Lucas-Rosada/API_PYTHON_TO_RUBY_PUBLIC">
 </p>
 
 ## 🖥️ Demonstração
