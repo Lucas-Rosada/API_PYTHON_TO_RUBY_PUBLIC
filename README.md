@@ -38,3 +38,6 @@
 1. **Clone o repositório:**
    ```bash
    git clone https://github.com/usuario/api-monitoramento-veiculos.git
+
+## 🛠️ Endpoints
+GET /data: Retorna os dados em cache dos veículos.
